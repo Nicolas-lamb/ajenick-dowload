@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download do Ajenick</title>
+    <style>
+      /* Estilo do tema dark */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 175px;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+        transition: transform 0.2s ease;
+      }
+
+      .btn:active {
+        transform: scale(0.95);
+      }
+
+      /* Botão do Android */
+      .btn-android {
+        background-color: #207e4b;
+        color: #ffffff;
+      }
+
+      .btn-android:hover {
+        background-color: #154e2f;
+      }
+
+      /* Botão do iOS */
+      .btn-ios {
+        background-color: #d4d4d4;
+        color: #000000;
+      }
+
+      .btn-ios:hover {
+        background-color: #bbbbbb;
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      .icon-black {
+        filter: invert(1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Baixe o Ajenick</h1>
+    <div class="button-container">
+      <!-- Botão para Android -->
+      <a
+        href="https://www.mediafire.com/link_para_android"
+        class="btn btn-android"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/226/226770.png"
+          alt="Android"
+          class="icon"
+        />
+        Baixar para Android
+      </a>
+
+      <!-- Botão para iOS -->
+      <a href="https://www.mediafire.com/link_para_ios" class="btn btn-ios">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/179/179309.png"
+          alt="iOS"
+          class="icon icon-black"
+        />
+        Baixar para iOS
+      </a>
+    </div>
+  </body>
+</html>
